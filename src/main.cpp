@@ -11,7 +11,7 @@ using namespace std;
 
 int main(int argc, char **argv) 
 {
-    ros::init(argc, argv, "apollo_dream_node");
+    ros::init(argc, argv, "cubic_bezier_interpolation_curve_node");
     ros::NodeHandle nh;
 
     ros::Rate loop_rate(1);
