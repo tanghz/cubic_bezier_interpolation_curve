@@ -31,11 +31,11 @@ int main(int argc, char **argv)
     vector<Bezier::Point> bezierPoints = bezierAdapter.getBezierPoints();
     double time_end =ros::Time::now().toSec();
 
-    Visualization visualization;
-
     while (ros::ok())
     {
         ROS_INFO("  ros: cost time: %.3f ms\n",(time_end-time_begin)*1000.0);
+        
+        Visualization visualization;
         visualization.publishLines ( reference_line_pub,
                        visualization_msgs::Marker::LINE_STRIP,
                        make_tuple(0.1,0.1,0,0,1,1), 
