@@ -2,6 +2,6 @@
 https://github.com/oysteinmyrmo/bezier
 http://www.antigrain.com/research/bezier_interpolation/index.html#PAGE_BEZIER_INTERPOLATION
 
-缺点是连接处曲率是不连续的
+缺点是连接处曲率是阶跃的
 
 ![image](https://github.com/tanghz/cubic_bezier_interpolation_curve/blob/master/cubic_bezier.png)
