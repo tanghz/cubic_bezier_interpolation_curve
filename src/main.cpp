@@ -33,6 +33,7 @@ int main(int argc, char **argv)
 
     //do it
     //just to test
+    //thz1
 
     while (ros::ok())
     {
