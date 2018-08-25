@@ -1,6 +1,8 @@
 # cubic_bezier_interpolation_curve
 https://github.com/oysteinmyrmo/bezier
 http://www.antigrain.com/research/bezier_interpolation/index.html#PAGE_BEZIER_INTERPOLATION
+http://www.algosome.com/articles/continuous-bezier-curve-line.html
+
 
 缺点是连接处曲率是阶跃的
 

@@ -29,7 +29,16 @@ int main(int argc, char **argv)
     double time_begin =ros::Time::now().toSec();
     BezierAdapter bezierAdapter(originControlPoints);
     vector<Bezier::Point> bezierPoints = bezierAdapter.getBezierPoints();
-    double time_end =ros::Time::now().toSec();
+    double time_end =ros::Time::now().toSec();//thz
+
+    //do it
+    //just to test
+    //thz1
+    //thz2
+
+    //thz3
+    //thz4
+    //thz5
 
     while (ros::ok())
     {
