@@ -34,6 +34,7 @@ int main(int argc, char **argv)
     //do it
     //just to test
     //thz1
+    //thz2
 
     while (ros::ok())
     {
