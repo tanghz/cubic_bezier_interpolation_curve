@@ -29,7 +29,9 @@ int main(int argc, char **argv)
     double time_begin =ros::Time::now().toSec();
     BezierAdapter bezierAdapter(originControlPoints);
     vector<Bezier::Point> bezierPoints = bezierAdapter.getBezierPoints();
-    double time_end =ros::Time::now().toSec();
+    double time_end =ros::Time::now().toSec();//thz
+
+    //do it
 
     while (ros::ok())
     {
