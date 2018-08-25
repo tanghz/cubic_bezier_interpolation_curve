@@ -32,6 +32,7 @@ int main(int argc, char **argv)
     double time_end =ros::Time::now().toSec();//thz
 
     //do it
+    //just to test
 
     while (ros::ok())
     {
