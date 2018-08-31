@@ -34,6 +34,7 @@ int main(int argc, char **argv)
 
     //thz_0829_dev
     //hao
+    //0831 master
     while (ros::ok())
     {
         ROS_INFO("  ros: cost time: %.3f ms\n",(time_end-time_begin)*1000.0);
