@@ -31,9 +31,9 @@ int main(int argc, char **argv)
     vector<Bezier::Point> bezierPoints = bezierAdapter.getBezierPoints();
     double time_end =ros::Time::now().toSec();//thz
     //thz 0829
-
     //thz_0829_dev
     //hao
+    //ok
     while (ros::ok())
     {
         ROS_INFO("  ros: cost time: %.3f ms\n",(time_end-time_begin)*1000.0);
